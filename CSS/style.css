@@ -1,0 +1,40 @@
+/*  hr {
+   border: none; Убираем границу
+   background-color: black;  Цвет линии 
+   color: black; Цвет линии для IE6-7
+   height: 1px; Толщина линии
+  } */
+
+	h1 {
+		text-align: center;
+	}
+	
+   div {
+   	width: 684px;
+   	margin: 30px auto;
+   }
+
+   img {
+   	margin: 10px 242px;
+   }
+
+	body {
+	margin: 0;
+	font-size: 17px;
+}
+
+	.header {
+		margin-top: 50px;
+	}
+
+	.footer {
+		margin-bottom: 50px;
+	}
+	
+	li {
+		margin: 10px -5px;
+	}
+
+	p {
+		margin: 10px 18px;
+	}
