@@ -1,14 +1,21 @@
+
 body {
-	margin: 0 270px;
-}
+	height: 850px;
+	width: 1070px;
+	margin: 0px auto;
+} 
+
 
 /*HEADER*/
+.header img {
+	margin-top: 25px;
+}
 .header {
-	width: 964px;
-	height: 120px;
+	width: 970px;
+	height: 150px;
 	margin-top: 50px;
-	margin-right: 80px;
-	margin-left: 45px;
+	margin-right: 50px;
+	margin-left: 50px;
 
 }
 .menu_list {
@@ -31,6 +38,7 @@ body {
 	text-decoration: none;
 	text-align: center;
 	padding: 12px 0;
+	font-size: 17px;
 }
 
 .menu_list li a:hover {
@@ -45,7 +53,8 @@ body {
 	height: 240px;
 	width: 240px;
 	border: 1px solid #c8c8c8;
-	margin: 45px;
+	margin-top: 45px;
+	margin-left: 50px;
 	font-family: sans-serif;
 	float: left;
 }
@@ -78,9 +87,10 @@ body {
 /*CONTENT*/
 
 .content {
-	margin-left: 330px;
+	margin-left: 344px;
 	margin-top: 45px;
 	width: 680px;
+	margin-right: 53px;
 }
 
 .text {
@@ -103,7 +113,9 @@ body {
 .footer {
 	width: 970px;
 	height: 40px;
-	margin: 60px  48px  60px 45px;
+	margin-top: 60px;
+	margin-left: 50px;
+	margin-bottom: 25px;
 	background-color: #e1e1e1;
 }
 .footer li {
@@ -118,8 +130,9 @@ body {
 	}
 .footer li:last-child {
 	text-align: right;
-	width: 492px;
+	width: 490px;
 }
 .footer li a:hover {
 	text-decoration: underline;
 }
+
