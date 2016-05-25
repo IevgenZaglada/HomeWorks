@@ -3,33 +3,32 @@ body {
 	height: 850px;
 	width: 1070px;
 	margin: 0px auto;
+	box-shadow: 0 0 5px #dbdbdb;
 } 
 
 
 /*HEADER*/
-.header img {
-	margin-top: 25px;
-}
 .header {
 	width: 970px;
-	height: 150px;
-	margin-top: 50px;
-	margin-right: 50px;
-	margin-left: 50px;
+	height: 200px;
+	margin: 0 auto;
 
 }
-.menu_list {
+.fitness {
+	padding: 30px 0;
+}
+
+.menu-list {
 	height: 40px;
 	background-color: #5b5b5b;
-	margin-top: 40px;
 	padding-left: 1px;
 
 }
-.menu_list li {
+.menu-list li {
 	display: inline-block;
 
 }
-.menu_list li a {
+.menu-list li a {
 	display: inline-block;
 	width: 101px;
 	height: 16px;
@@ -41,22 +40,30 @@ body {
 	font-size: 17px;
 }
 
-.menu_list li a:hover {
+.menu-list li:hover {
 	background-image: url(../img/hover.png);
 }
 
-/*HEADER*/
+/*end ofHEADER*/
+
+/*CENTRAL*/
+.central {
+	width: 970px;
+	height: 550px;
+	margin: 0 auto;
+}
+
+/*end of CENTRAL*/
 
 /*SIDEBAR*/
 
 .sidebar {
+	float: left;
 	height: 240px;
 	width: 240px;
 	border: 1px solid #c8c8c8;
-	margin-top: 45px;
-	margin-left: 50px;
 	font-family: sans-serif;
-	float: left;
+	
 }
 .sidebar li {
 	height: 39px;
@@ -71,32 +78,33 @@ body {
 	display: block;
 }
 .sidebar li a:hover {
-	background-image: url(../img/hover1.png);
 	padding-left: 40px;
 	padding-top: 15px;
 	color: #2c2c2c;
 	height: 24px;
 }
+.sidebar li:hover {
+	background-image: url(../img/hover1.png);
 
+}
 .sidebar li:last-child {
 	border-bottom: 0;
 }
 
-/*SIDEBAR*/
+/*end of SIDEBAR*/
 
 /*CONTENT*/
 
 .content {
-	margin-left: 344px;
-	margin-top: 45px;
-	width: 680px;
-	margin-right: 53px;
+	float: right;
+	width: 676px;
 }
 
 .text {
 	border: 0;
-	margin-top: 35px;
-	margin-left: 25px;
+	padding-top: 35px;
+	padding-left: 25px;
+	padding-bottom: 31px;
 	text-align: left;
 	font-family: sans-serif;
 	color: #2c2c2c;
@@ -107,19 +115,19 @@ body {
 	padding: 20px 87px;
 	border: 1px solid #c8c8c8;
 }
-/*CONTENT*/
+/*end of CONTENT*/
 
 /*FOOTER*/
 .footer {
+	clear: both;
 	width: 970px;
 	height: 40px;
-	margin-top: 60px;
-	margin-left: 50px;
-	margin-bottom: 25px;
+	margin: 0 auto;
 	background-color: #e1e1e1;
 }
 .footer li {
 	display: inline-block;
+	width: 90px;
 	height: 16px;
 	padding: 12px 25px;
 	color: #2c2c2c;
@@ -130,9 +138,9 @@ body {
 	}
 .footer li:last-child {
 	text-align: right;
-	width: 490px;
+	width: 344px;
 }
-.footer li a:hover {
+.footer li:hover {
 	text-decoration: underline;
 }
-
+/*end of FOOTER*/
