@@ -6,7 +6,7 @@
 }
 
 header {
-	width: 896px;
+	width: 100%;
 	margin: 21px auto 8px;
 	
 }
@@ -17,18 +17,22 @@ header div {
 
 .phone {
 	color: #5e696d;
-	width: 290px;
+	width: 34.6%;
 	font-size: 18px;
-	margin-right: 12px;
+	float: left;
+	padding-top: 5px;
 }
 
 .phone img {
 	float: left;
-	padding-right: 3px;
+	padding-left: 8px;
+}
+.phone span {
+	letter-spacing: 0.06px;
 }
 
 .autorize {
-	width: 495px;
+	width: 54%;
 	height: 22px;
 	background: linear-gradient(0deg, #0c3357, #1f6685);
 	border-radius: 5px;
@@ -37,7 +41,6 @@ header div {
 	-moz-box-shadow: 0px 1px 10px 1px rgba(180,180,180,0.75);
 	box-shadow: 0px 1px 10px 1px rgba(180,180,180,0.75);
 	font-size: 11px;
-	padding-left: 1px;
 	padding-top: 3px;
 }
 
@@ -74,19 +77,20 @@ header div {
 }
 
 .icons {
-	width: 75px;
+	width: 8%;
 	border: 1px solid #c1c8cb;
 	border-radius: 10px;
 	-webkit-box-shadow: 1px 1px 3px 1px rgba(225,229,230,1);
 	-moz-box-shadow: 1px 1px 3px 1px rgba(225,229,230,1);
 	box-shadow: 1px 1px 3px 1px rgba(225,229,230,1);
-	margin-left: 10px;
 	text-align: center;
-	height: 17px;
+	height: 18px;
+	float: right;
+	margin-right: 8px;
 }
 
 .zazor {
-	width: 909px;
+	width: 100%;
 	margin: 0 auto;
 	height: 237px;
 	margin-bottom: 6px;
@@ -97,19 +101,21 @@ nav {
 	background: linear-gradient(0deg, #010101, #505860);
 	border: 1px solid #2c345a;
 	border-radius: 5px;
-	width: 908px;
+	width: 100%;
 	margin-bottom: 9px;
 }
 
 .menu {
 	height: 34px;
 	display: inline-block;
+	width: 69%;
 	text-align: right;
 }
 
 nav ul {
-	float: left;
-	width: 620px;;
+	width: 100%;
+	display: inline-block;
+	float: left;;
 }
 
 nav ul li {
@@ -131,10 +137,10 @@ nav ul li:hover {
 }
 
 .basket {
-	width: 227px;
 	height: 25px;
 	padding-top: 6px;
 	float: right;
+	width: 25%;
 }
 
 .basket img {
@@ -155,13 +161,13 @@ nav ul li:hover {
 .forms {
 	height: 133px;
 	font-size: 12px;
-	width: 895px;
+	width: 100%;
 	text-align: center;
 	margin: 0 auto 16px;
 }
 
 .one {
-	width: 413px;
+	width: 46%;
 	height: 133px;
 	border: 1px solid #a5a5a5;
 	border-radius: 15px;
@@ -175,23 +181,22 @@ nav ul li:hover {
 }
 
 .headOne {
-	width: 383px;
+	width: 94%;
 	height: 20px;
-	padding-left: 20px;
-	padding-right: 10px;
+	padding-left: 25px;
 }
 
 .one h1 {
 	float: left;
-	width: 238px;
+	width: 58%;
 	font-weight: bold;
-	padding-top: 2px;
+	padding-top: 3px;
 	text-align: center;
-	letter-spacing: 1px;
+	letter-spacing: 1.1px;
 }
 
 .one .webs {
-	width: 65px;
+	width: 17%;
 	float: left;
 	padding-top: 6px;
 	font-weight: bold;
@@ -199,7 +204,7 @@ nav ul li:hover {
 }
 
 .one .tires {
-	width: 50px;
+	width: 15%;
 	float: right;
 	padding-top: 5px;
 	font-weight: bold;
@@ -208,11 +213,11 @@ nav ul li:hover {
 }
 
 .leftside {
-	width: 190px;
+	width: 45%;
 	display: inline-block;
 	float: left;
 	font-size: 10px;
-	padding-left: 15px;
+	padding-left: 19px;
 	padding-top: 2px;
 }
 
@@ -238,7 +243,7 @@ select {
 }
 
 .rightside {
-	width: 190px;
+	width: 45%;
 	display: inline-block;
 	float: right;
 	font-size: 10px;
@@ -252,12 +257,12 @@ select {
 	color: #154467;
 	text-decoration: underline;
 	cursor: pointer;
-	padding-top: 3px;
+	padding-top: 4px;
 	padding-right: 21px;
 }
 
 .two {
-	width: 192px;
+	width: 21%;
 	height: 133px;
 	border: 1px solid #b0b9bc;
 	border-radius: 15px;
@@ -300,7 +305,7 @@ select {
 }
 
 .center {
-	width: 177px;
+	width: 95%;
 	display: inline-block;
 	float: left;
 	font-size: 10px;
@@ -318,7 +323,7 @@ select {
 
 .season {
 	display: inline-block;
-	width: 192px;
+	width: 100%;
 	height: 47px;
 }
 
@@ -371,7 +376,7 @@ select {
 
 .three {
 	height: 133px;
-	width: 266px;
+	width: 30%;
 	border: 1px solid #adadae;
 	border-radius: 15px;
 	float: right;
@@ -384,7 +389,7 @@ select {
 
 .headThree {
 	height: 20px;
-	width: 175px;
+	width: 65%;
 	float: left;
 }
 
@@ -400,7 +405,7 @@ select {
 }
 
 .first {
-	width: 160px;
+	width: 59%;
 	float: left;
 	display: inline-block;
 	padding-left: 15px;
@@ -435,7 +440,7 @@ select {
 }
 
 .second {
-	width: 80px;
+	width: 31%;
 	float: right;
 	display: inline-block;
 	border-left: 1px solid #bdc6ca;
@@ -465,7 +470,7 @@ select {
 }
 
 .panel {
-	width: 910px;
+	width: 100%;
 	height: 628px;
 	clear: both;
 	margin: 0 auto 35px;
@@ -479,7 +484,7 @@ select {
 }
 
 .icon {
-	width: 181px;
+	width: 100%;
 	height: 25px;
 	border: 1px solid #8c969a;
 	border-radius: 15px;
@@ -505,7 +510,7 @@ select {
 
 .start {
 	height: 26px;
-	width: 149px;
+	width: 82%;
 	float: left;
 	border: 1px solid #79878d;
 	border-radius: 15px;
@@ -528,7 +533,7 @@ select {
 }
 
 .list {
-	width: 152px;
+	width: 85.5%;
 	height: 100px;
 	float: left;
 }
@@ -556,7 +561,7 @@ select {
 
 .start2 {
 	height: 26px;
-	width: 149px;
+	width: 82%;
 	float: left;
 	border: 1px solid #79878d;
 	border-radius: 15px;
@@ -591,7 +596,7 @@ select {
 
 
 .central table tr td {
-	padding: 14px 13px;
+	padding: 13px;
 	display: inline-block;
 	width: 27%;
 	font-family: 'Lucida sans Unicode';
@@ -625,7 +630,7 @@ figcaption {
 }
 
 .right .icon1 {
-	width: 180px;
+	width: 100%;
 	height: 25px;
 	border: 1px solid #8c969a;
 	border-radius: 15px;
@@ -650,7 +655,7 @@ figcaption {
 
 .start3, .start4 {
 	height: 26px;
-	width: 134px;
+	width: 74%;
 	border: 1px solid #79878d;
 	border-radius: 15px;
 	cursor: pointer;
@@ -674,7 +679,7 @@ figcaption {
 }
 
 .brandTireWeb {
-	width: 100px;
+	width: 60%;
 	display: block;
 	float: left;
 }
@@ -717,58 +722,58 @@ figcaption {
 
 .logos {
 	margin: 0 auto;
-	width: 675px;
-	margin-bottom: 25px;
+	width: 100%;
+	margin-bottom: 23px;
+	text-align: center;
 }
 
 .logos img {
-	padding: 2px 3px;
 	display: inline-block;
+	padding: 2px 3px;
 }
 
 .logos .bridge {
 	top: -6px;
-	left: -2px;
+	left: -8px;
 	position: relative;
 }
 
 .logos .avon {
 	position: relative;
-	top: -5px;
-	left: 6px;
+	top: -7px;
+	left: 1px;
 }
 
 .logos .pirelli {
 	position: relative;
-	top: -4px;
-	left: 12px;
+	top: -5px;
+	left: 5px;
 }
 
 .logos .cooper {
 	position: relative;
-	left: 6px;
+	left: -1px;
 }
 .logos .toyo {
 	position: relative;
-	top: 1px;
-	left: -3px;
+	left: -9px;
 }
 
 
 .logos .factory {
 	position: relative;
 	top: 3px;
-	left: 10px;
+	left: 3px;
 }
 
 .logos .dunlop {
 	position: relative;
 	top: -6px;
-	left: 17px;
+	left: 10px;
 }
 
 footer {
-	width: 910px;
+	width: 100%;
 	height: 116px;
 	background-color: #213a4d;
 }
